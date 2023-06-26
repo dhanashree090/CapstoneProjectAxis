@@ -58,11 +58,12 @@ public class TestC6 {
     	js6.executeScript("window.scrollBy(0,450)", "");
     	
     	ViewProduct.click();
-    	Thread.sleep(2000);
+    	
     	//add
     	JavascriptExecutor js7 = (JavascriptExecutor) driver;
         js7.executeScript("const elements = document.getElementsByClassName('adsbygoogle adsbygoogle-noablate'); while (elements.length > 0) elements[0].remove()");
         //ViewProduct.click();
+	Thread.sleep(2000);
         //srollDown
     	JavascriptExecutor js8 = (JavascriptExecutor) driver;
     	js8.executeScript("window.scrollBy(0,250)", "");
