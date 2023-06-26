@@ -16,7 +16,7 @@ public class Base {
 
 	public WebDriver setup(String Port) throws MalformedURLException {
 		if (Port.equalsIgnoreCase("5555")) {
-			nodeURL = "http://192.168.218.94:4444/wd/hub";
+			nodeURL = "http://192.168.15.94:4444/wd/hub";
 			System.out.println("Chrome Browser Initiated");
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 			capabilities.setBrowserName("chrome");
