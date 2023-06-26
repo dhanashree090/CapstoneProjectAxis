@@ -30,7 +30,7 @@ public class Base {
 		}
 
 		else if (Port.equalsIgnoreCase("6666")) {
-			nodeURL = "http://192.168.218.94:4444/wd/hub";
+			nodeURL = "http://192.168.15.94:4444/wd/hub";
 			System.out.println("Microsoft Edge Browser Initiated");
 			DesiredCapabilities capabilities1 = DesiredCapabilities.edge();
 			capabilities1.setBrowserName("MicrosoftEdge");
