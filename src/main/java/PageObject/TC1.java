@@ -108,7 +108,7 @@ public class TC1 {
 	    	SignupLogin.click();
 	    	Assert.assertTrue(NewUserSignup.isDisplayed());
 	    	Name.sendKeys("Nma");
-	    	email.sendKeys("nam38899412@gmail.com");
+	    	email.sendKeys("nam38129412@gmail.com");
 	    	signup.click();
 	    	Assert.assertTrue(EnterInfo.isDisplayed());
 	    	title.click();
